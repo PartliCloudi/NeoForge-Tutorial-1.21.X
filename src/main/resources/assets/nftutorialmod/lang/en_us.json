@@ -1,4 +1,7 @@
 {
   "item.nftutorialmod.ruby": "Ruby",
-  "item.nftutorialmod.polished_ruby": "Polished Ruby"
+  "item.nftutorialmod.polished_ruby": "Polished Ruby",
+
+  "block.nftutorialmod.ruby_block": "Block of Ruby",
+  "block.nftutorialmod.ruby_ore": "Ruby Ore"
 }

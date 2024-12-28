@@ -1,5 +1,6 @@
 package net.partlicloudi.nftutorialmod;
 
+import net.partlicloudi.nftutorialmod.block.ModBlocks;
 import net.partlicloudi.nftutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -53,6 +54,7 @@ public class TutorialMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -69,6 +71,11 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
             event.accept(ModItems.POLISHED_RUBY);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RUBY_ORE);
         }
     }
 
