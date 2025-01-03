@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "ruby",
+  "ingredient": {
+    "item": "nftutorialmod:ruby_nether_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "nftutorialmod:polished_ruby"
+  }
+}

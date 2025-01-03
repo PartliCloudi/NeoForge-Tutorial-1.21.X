@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "nftutorialmod:ruby_block",
+    "nftutorialmod:ruby_nether_ore",
+    "nftutorialmod:ruby_end_stone_ore"
+  ]
+}

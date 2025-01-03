@@ -1,6 +1,7 @@
 package net.partlicloudi.nftutorialmod;
 
 import net.partlicloudi.nftutorialmod.block.ModBlocks;
+import net.partlicloudi.nftutorialmod.item.ModCreativeModeTabs;
 import net.partlicloudi.nftutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -53,6 +54,8 @@ public class TutorialMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -75,7 +78,8 @@ public class TutorialMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.RUBY_BLOCK);
-            event.accept(ModBlocks.RUBY_ORE);
+            event.accept(ModBlocks.RUBY_NETHER_ORE);
+            event.accept(ModBlocks.RUBY_END_STONE_ORE);
         }
     }
 

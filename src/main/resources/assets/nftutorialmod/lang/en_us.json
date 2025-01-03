@@ -3,5 +3,9 @@
   "item.nftutorialmod.polished_ruby": "Polished Ruby",
 
   "block.nftutorialmod.ruby_block": "Block of Ruby",
-  "block.nftutorialmod.ruby_ore": "Ruby Ore"
+  "block.nftutorialmod.ruby_nether_ore": "Ruby Nether Ore",
+  "block.nftutorialmod.ruby_end_stone_ore": "Ruby Endstone Ore",
+
+  "creativetab.nftutorialmod.ruby_items": "Ruby Items",
+  "creativetab.nftutorialmod.ruby_blocks": "Ruby Blocks"
 }
